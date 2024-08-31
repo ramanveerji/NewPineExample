@@ -4,13 +4,11 @@ import android.app.Application;
 import android.content.Context;
 import android.content.res.AssetManager;
 import android.os.Build;
-import androidx.core.app.AppComponentFactory;
+
 import java.io.File;
 import java.io.FileOutputStream;
 import java.io.IOException;
 import java.io.InputStream;
-
-import java.lang.reflect.Field;
 import java.lang.reflect.Method;
 
 import top.canyie.pine.Pine;
